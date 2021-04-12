@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSF Banking System</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- Google-SFonts -->
+    <link rel="stylesheet" href="./assets/css/info.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body onload="loader()">
+
+    <!-- loader for splash screen -->
+    <div id="loading"></div>
+
+    <!-- navbar starts here  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html"><img src="logo.jpg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./customers.html">Customers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="info.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar ends here  -->
+
+    <!-- content section start here -->
+    <section id="action" class="coloured-section">
+        <h1 class="title">Why choose <b>TSF Banking System</b> online plateform</h1>
+    </section>
+    <section id="features1" class="white-section">
+        <div class="container">
+            <div class="card" id="card1">
+                <h3 class="feature-title">Safety and security proof</h3>
+                <p>Safety and security have always been our priority as a way of ensuring that both the people inside
+                    the building and the bank's assets are protected from harm. It has a strong online security policy
+                    to ensure that our customers have a safe and secure online experience with us.</p>
+            </div>
+            <div class="card" id="card1">
+                <h3 class="feature-title">How money transfer is safe </h3>
+                <p>All your transaction details are and is verified through One Time Password (OTP) which is sent on
+                    registered mobile number to the customer. Bank will send you an SMS as soon as the transaction is
+                    processed and also the beneficiary will receive an SMS from their bank confirming the credit.</p>
+            </div>
+            <div class="card" id="card1">
+                <h3 class="feature-title">How money transfer is beneficiary?</h3>
+                <p>Fund can be transfer between your own bank accounts without adding beneficiary transfer fund. You can
+                    transfer money to any bank in India. Transfer upto Rs. 1,00,000 per day from your account which is
+                    the maximum limit as set by your bank.
+                    BHIM UPI is used for transferring funds in real-time from your bank account to beneficiary’s
+                    account.</p>
+            </div>
+        </div>
+    </section>
+    <!-- content section ends here -->
+
+    <!-- footer starts here -->
+    <footer>
+        <hr>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="row text-center">
+            <div class="col-md-6">
+                <p>
+                <h4>This project is made by Suraj Kumar.</h4>
+                </p>
+
+            </div>
+            <div class="col-md-6 text-center">
+                <ul class="social-icons">
+                    Contact Me :
+                    <li><a target="_blank" class="github" href="https://github.com/surajkumar021"><i
+                                class="fab fa-github fa-2x"></i></a></li>
+
+                    <li><a target="_blank" class="linkedin" href="https://www.linkedin.com/in/surajkumar021/"><i
+                                class="fab fa-linkedin fa-2x"></i></a></li>
+
+                    <li><a target="_blank" class="Facebook"
+                            href="https://www.facebook.com/profile.php?id=100037951783888"><i
+                                class="fab fa-facebook-square fa-2x"></i></a></li>
+                </ul>
+                <p class="copyright">
+                    copyright &copy; <b>TSF Bank 2021</b>| All rights reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+
+    <!-- spalsh screen js -->
+    <script>
+        var preloader = document.getElementById("loading");
+        function loader() {
+            preloader.style.display = 'none';
+        }
+    </script>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+    <!-- aos data  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 700,
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    /* background-color:rgb(243, 191, 243); */
+    background-color:rgb(255, 255, 255);
+}
+/* splash screen styling starts here  */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #e4eff2 url ("https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif") no-repeat center center;
+    z-index: 99999;
+}
+/* splash screen styling ends here  */
+
+/* navbar styling starts here  */
+.bg-light{
+    background-color:whitesmoke !important;
+}
+
+.navbar-brand img{
+    height: 60px;
+    width: 70px;
+}
+
+.nav-link{
+    color:black!important;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration:none;
+}
+
+.nav-link:hover{
+    background-color:cyan;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+/* navbar styling ends here  */
+
+/*---service section---*/
+#features1
+{
+  background-color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 10% 15%;
+}
+
+ .features1 h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+
+.features h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+
+.title::before
+{
+	content:'';
+	background:black;
+	height:5px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}
+.title::after
+{
+	content:'';
+	background:#05eafa;
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+    margin-bottom:40px;
+    display: block;
+	transform:translatey(8px);
+}
+#features .btn-primary
+{
+	box-shadow:none;
+	padding:10px 25px;
+	border:none;
+	align-content: center;
+	/* background-image:linear-gradient(to right,#bdb6be,#5f1782) */
+}
+/* Action*/
+  #action{
+    background-color:rgb(228, 110, 228);
+    padding: 7% 15%;
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(8, 7, 7);
+  }
+  .main{
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 10px 0px;
+  }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+
+/* footer styling starts here */
+footer{
+    background-color:whitesmoke;
+
+}
+
+.social-icons li{
+    list-style: none;
+    display:inline;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.github{
+    color:black;
+}
+
+.linkedin{
+    color: #1e57d3;
+}
+.Facebook{
+    color:blue; 
+}
+
+.copyright{
+    padding: 11px 21px;
+    text-align: center;
+}
+
+/* footer styling ends here  */
