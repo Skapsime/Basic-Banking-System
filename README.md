@@ -6,7 +6,7 @@ A web application used to tranfer virtual money between multiple users and also 
 
   2.Start with creating a dummy data in database for upto 10 customers.
  
-  3. Customers table will have basic fields such as name, email, current balance etc. 
+ 3. Customers table will have basic fields such as name, email, current balance etc. 
  
   4.Transfers table will record all transfers happened.
 
