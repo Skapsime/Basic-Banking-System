@@ -1,6 +1,6 @@
 # Basic-Banking-System
 The Sparks Foundation Web Development Internship Project : Basic Banking System
-A web application used to tranfer virtual money between multiple users and also record the banking transactions/ activities.
+A web application used to transfer virtual money between multiple users and also record the banking transactions/ activities.
 
   1.Create a simple dynamic website which has the following specs.
 
